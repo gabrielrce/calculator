@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="“stylesheet”"
+    />
+  </head>
+  <body>
+    <!-- Another way to validate big numbers, could be with maxlength attr, but it
+    only works with type text  -->
+    <input
+      type="number"
+      class="form-control"
+      id="inputText1"
+      placeholder="Enter a number"
+    />
+    <input
+      type="number"
+      class="form-control"
+      id="inputText2"
+      placeholder="Enter another number"
+    />
+    <button
+      type="submit"
+      id="ActionButton1"
+      class="btn btn-primary"
+      onClick="processOperation(this)"
+    >
+      +
+    </button>
+    <button
+      type="submit"
+      id="ActionButton2"
+      class="btn btn-primary"
+      onClick="processOperation(this)"
+    >
+      -
+    </button>
+    <button
+      type="submit"
+      id="ActionButton3"
+      class="btn btn-primary"
+      onClick="processOperation(this)"
+    >
+      *
+    </button>
+    <button
+      type="submit"
+      id="ActionButton4"
+      class="btn btn-primary"
+      onClick="processOperation(this)"
+    >
+      /
+    </button>
+    <button
+      type="submit"
+      id="ActionButton5"
+      class="btn btn-primary"
+      onClick="processOperation(this)"
+    >
+      Fact
+    </button>
+  </body>
+  <script src="js/scripts.js"></script>
+</html>
